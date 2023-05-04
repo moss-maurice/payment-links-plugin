@@ -1,0 +1,1 @@
+require_once(MODX_BASE_PATH . '/assets/plugins/sberbank/plugins/payLinks/plugin.php');

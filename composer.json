@@ -1,0 +1,21 @@
+{
+    "name": "mmaurice/payment-links-plugin",
+    "description": "Equiring payment links generation plugin for ModX Evolution 1.4.x",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "authors": [{
+        "name": "Moss Maurice",
+        "email": "kreexus@yandex.ru",
+        "role": "developer"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "mmaurice/modx-injector": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "mmaurice\\PaymentLinksPlugin\\": "src/"
+        }
+    }
+}
