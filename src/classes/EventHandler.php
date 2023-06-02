@@ -25,7 +25,7 @@ class EventHandler
                     $decoded = @array_combine(['amount', 'hash'], $decoded);
 
                     if ($decoded and (md5($decoded['amount']) === $decoded['hash'])) {
-                        $this->sendForward($this->pageHandler, "{{payButton ? &amount=`{$decoded['amount']}`}}");
+                        $this->sendForward($this->pageHandler, "{{payButton ? &amount=`{$decoded['amount']}` &tmpl=`form`}}");
                     }
                 }
             break;
